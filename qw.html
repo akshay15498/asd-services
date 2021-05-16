@@ -1,0 +1,86 @@
+<html>
+<head>
+<title></title>
+<!-- Apply styles to html elements -->
+<style>
+  
+  h1 {
+  font-size: 30px;
+}
+  p {
+  font-size: 30px;
+} 
+   ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+*{
+margin:9px; padding:0; boxsizing:border-box;
+}
+header{
+width: 100%; height: 100vh;
+background-color: white;
+background-repeat: no-repeat;
+background-size: cover;
+}
+nav{
+width: 97%; height: 10vh;
+background: #383838;
+display: flex; justify-content: space-between;
+align-items: center;
+}
+nav .mainmenu{
+width: 30%;
+display: flex; justify-content: space-around;
+}
+main{
+width: 100%; height: 85vh;
+display: flex; justify-content: center;
+align-items: center;
+text-align: center;
+}
+section h3{
+letter-spacing: 10px; font-weight: 200;
+}
+section h1{
+text-transform: uppercase;
+}
+section div{
+animation:changeborder 10s infinite linear;
+
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<nav>
+<div class = "logo"  style="color:white;"><h1>ASD SOLUTION</h1></div>
+<!--Lets define the menu items now-->
+<div class = "mainmenu">
+    <ul>
+        <li><a class="active" href="#About"></a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+</div>
+</nav>
+<!--Let us create the main section now, if you are not using html5, use div tags-->
+<main>
+<section>
+<!--Check out the styling elements for this div class - change_text -->
+<div class = "change_text"><h1>SERVICES</h1></div>
+<br>
+<p>Our services include:</p>
+</main>
+</header>
+</body>
+</html>
